@@ -1,3 +1,20 @@
+Directories needed
+==================
+Key directory (key-dir)
+-----------------------
+A directory containing all the public keys for the keys added to keyholder.
+The files must be named ``[keyname].pub``
+
+Config directory (auth-dir)
+---------------------------
+A directory containing one or more YAML files (extension must be yml or yaml) with permission information. A YAML file must have one or more sets of a unix group name  followed by a list of keynames (the same keyname as used in the filename previously)
+
+::
+
+    [groupname]
+      - [keyname]
+
+
 Keyholder
 =========
 
