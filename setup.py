@@ -33,7 +33,7 @@ setuptools.setup(
         'pyyaml',
         'construct>=2.8,<3',
         'pynacl>=1.0.1',
-        'pycrypto>=2.6',
+        'pycryptodome>=3.14',
     ],
     entry_points={
         'console_scripts': [
